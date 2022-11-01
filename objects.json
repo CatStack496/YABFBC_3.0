@@ -1,0 +1,94 @@
+{
+  "bird": {
+    "texture": "textures/bird.png",
+    "scale": 8,
+    "x": 30,
+    "y": 50,
+    "animation": {
+      "anim8": true,
+      "frameHeight": 18,
+      "frameWidth": 18,
+      "frameCount": "1-8",
+      "loopCondition": "pauseAtStart",
+      "frameTiming": 0.025,
+      "velocity": 3
+    },
+    "hitboxes": [
+      [
+        [4, 4],
+        [16, 12]
+      ]
+    ],
+    "health":1
+  },
+  "spacebar": {
+    "texture": "textures/spacebar.png",
+    "scale": 8,
+    "animation": {
+      "anim8": true,
+      "frameHeight": 16,
+      "frameWidth": 64,
+      "frameCount": "1-2",
+      "frameTiming": 0.25
+    },
+    "hitboxes": []
+  },
+  "desert_1": {
+    "texture": "textures/desert_1.png",
+    "scale": "auto",
+    "animation": {"parallax": true,"parallaxAxis":"x", "parallaxSpeed": -0.5},
+    "hitboxes": []
+  },
+  "desert_2": {
+    "texture": "textures/desert_2.png",
+    "scale": "auto",
+    "animation": {"parallax": true,"parallaxAxis":"x", "parallaxSpeed": -1},
+    "hitboxes": []
+  },
+  "desert_3": {
+    "texture": "textures/desert_3.png",
+    "scale": "auto",
+    "animation": {"parallax": true,"parallaxAxis":"x", "parallaxSpeed": -1.5},
+    "hitboxes": []
+  },
+  "desert_4": {
+    "texture": "textures/desert_4.png",
+    "scale": "auto",
+    "animation": {"parallax": true,"parallaxAxis":"x", "parallaxSpeed": -4},
+    "hitboxes": []
+  },
+  "desert_sky": {
+    "texture": "textures/desert_sky.png",
+    "scale": "auto",
+    "animation": {},
+    "hitboxes": []
+  },
+  "desert_pillar": {
+    "x":"window",
+    "texture": "textures/desert_pillar.png",
+    "scale": "10.25",
+    "animation":  {
+      "parallax": true,
+      "parallaxAxis":"x",
+      "parallaxSpeed": -4,
+      "parallaxRepeats": 2
+    },
+    "hitboxes": [
+      [
+        [0, 0],
+        ["width", 99]
+      ],
+      [
+        [0, 141],
+        ["width", "height"]
+      ]
+    ],
+    "health":1
+  },
+  "title_logo": {
+    "texture": "textures/logo.png",
+    "scale": "auto",
+    "animation": {},
+    "hitboxes": []
+  }
+}
