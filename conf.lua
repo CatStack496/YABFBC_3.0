@@ -5,5 +5,5 @@ function love.conf(t)
 	t.accelerometerjoystick = false
   	t.modules.joystick = false
   	t.modules.physics = false
-  	t.title = "YABFBC 2.0"
+  	t.title = "YABFBC 3.0"
 end
